@@ -1,0 +1,7 @@
+banner里边图片插入位置
+
+main-top三个图片的高度
+
+main整体的高度与图片不符
+
+p标签居中问题，比如footer-left里边p标签

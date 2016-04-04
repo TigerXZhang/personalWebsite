@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>*{margin: 0;
+		padding: 0;
+
+	}
+		
+		ul{list-style: none;}
+		a{text-decoration: none;color: #fff;font-size: 20px;text-align: center;line-height: 50px;display: block;}
+		div{height: 300px;background-color: #2f374e;padding-top: 50px;}
+		.list1{width: 505px;height: 50px;background-color: #1c1388;margin: 0 auto;border-radius: 10px;}
+		.list1>li{width: 100px;height: 50px;float: left;border-left:1px solid #eee;}
+		.list3{background-color: #f90992;border-radius: 2px;display: none;}
+		.list3 li{text-align: center;border-bottom: 1px solid #444;}
+		.list5{background-color: yellow;display: none;}
+		.list5 li{border:1px solid #444;height: 50px;text-align: center;line-height: 50px;}
+		.list7{background-color: #8dd565;display: none;}
+		.list7 li{border:1px solid #333;height: 50px;line-height: 50px;text-align: center;}
+
+	</style>
+</head>
+<body>
+	<div>
+		<ul class="list1">
+			<li><a href="">主页</a></li>
+			<li><a href="">图片</a></li>
+			<li class="list2">
+				<a href="">视频</a>
+				<ul class="list3">
+					<li><a href="">喜剧片</a></li>
+					<li><a href="">恐怖片</a></li>
+					<li><a href="">武打片</a></li>
+					<li><a href="">爱情片</a></li>
+				</ul>
+			</li>
+			<li class="list4">
+				<a href="">游戏</a>
+				<ul class="list5">
+					<li><a href="">魔兽世界</a></li>
+					<li><a href="">魔兽争霸</a></li>
+					<li><a href="">英雄联盟</a></li>
+					<li><a href="">斗地主</a></li>
+				</ul>
+			</li>
+			<li class="list6">
+				<a href="">帮助</a>
+				<ul class="list7">
+					<li><a href="">网页问题</a></li>
+					<li><a href="">代码问题</a></li>
+					<li><a href="">连接问题</a></li>
+					<li><a href="">联系我们</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+
+	
+
+	<script src="js/jquery-1.11.1.js"></script>
+	<script>
+		$(".list2").mouseenter(function(){
+			$(".list3").stop().slideDown(2000)
+		})
+		$(".list2").mouseleave(function(){
+			$(".list3").stop().slideUp(2000)
+		})
+			$(".list4").mouseenter(function(){
+			$(".list5").fadeIn(2000)
+		})
+		$(".list4").mouseleave(function(){
+			$(".list5").fadeOut(3000)
+		})
+		$(".list6").mouseenter(function(){
+			$(".list7").slideDown(2000)
+		})
+		$(".list6").mouseleave(function(){
+			$(".list7").slideUp(2000)
+		})
+	</script>
+</body>
+</html>

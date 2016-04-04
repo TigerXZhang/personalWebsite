@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.box{width: 100px;height: 100px;background-color: yellow;}
+	</style>
+</head>
+<body>
+	<div class="box"></div>
+	<button class="first">隐藏</button>
+	<button class="second">显示</button>
+	<button class="button3">上卷</button>
+	<button class="button4">下拉</button>
+	<button class="button5">渐入</button>
+	<button class="button6">渐出</button>
+	<button class="button7">显示隐藏切换</button>
+	<button class="button8">上卷下啦切换</button>
+	<button class="button9">渐入渐出切换</button>
+
+
+
+
+	<script src="js/jquery-1.11.1.js"></script>
+	<script>
+		$(".first").click(function(){
+			$(".box").hide(5000)
+		})
+		$(".second").click(function(){
+			$(".box").show(5000)
+		})
+		$(".button3").click(function(){
+			$(".box").slideUp(5000)
+		})
+		$(".button4").click(function(){
+			$(".box").slideDown(5000)
+		})
+		$(".button5").click(function(){
+			$(".box").fadeIn(5000)
+		})
+		$(".button6").click(function(){
+			$(".box").fadeOut(5000)
+		})
+		$(".button7").click(function(){
+			$(".box").toggle(5000)
+		})
+		$(".button8").click(function(){
+			$(".box").slideToggle(500)
+		})
+		$(".button9").click(function(){
+			$(".box").fadeToggle(1000)
+		})
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+	*{margin: 0 ; padding: 0;font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;}
+	a{text-decoration: none;}
+	ul{list-style: none;}
+	header{height: 403px;}
+	.top{height: 19px;background-color: #3d3d3d;}
+	.logonav{height: 114px;background-image: url(../images/logonavbg_03.gif);}
+	.logonav-inner{width: 915px;height: 114px;margin: 0 auto;}
+	.logo{width: 275px;height: 114px;float: left;}
+	h1{font-size: 34px;color: #a82400;line-height: 114px;}
+	nav{width: 495px;height: 114px;float:right;}
+	nav li a{float: left;line-height: 114px;padding-left: 45px;font-size: 13px;color: #3b1a23;}
+	nav ul span{width: 115px;height: 69px;color: #84260c;border-bottom: 1px solid #c90302;display: block;}
+	.banner{height: 270px;background-image: url(../images/bannerbg_03.gif);}
+	.banner-inner{width: 915px;height: 270px;margin: 0 auto;}
+	.banner-inner .t span{border-bottom: 1px dashed #d6ffff;width: 175px;height: 24px;}
+	.t .left{width: 477px;height: 227px;float: left;}
+	.t .right img{float: left;margin-top: -25px;}
+	h2{padding-top: 38px;font-size: 23px;color: #e4e999;}
+	p{font-size: 11px;line-height: 20px;color: #b1ebf6;margin-top: 16px;}
+	.b ul li a{float: left;font-size: 16px;color: #ffecc8;line-height: 43px;}
+	.b ul li:nth-child(2) a{padding-left: 72px;padding-right: 72px;}
+	section.main{height: 306px;}
+	.main-inner{width: 915px;height: 306px;background-color: #fff;margin: 0 auto;}
+
+	.main-inner div{width: 274px;height: 306px;float: left;border-top: 1px solid #ececec;}
+	.main-inner div:nth-child(2){padding-left: 30px;padding-right: 30px;}
+	.main-inner h2{font-size: 17px;color: #4b392d;padding-top: 39px;}
+
+	.main-inner p{font-size: 11px;padding-top: 22px;color: #423b35;}
+	.main-inner div .about-b{width: 274px;height: 77px;background-color: #f4f4f4;margin-top: 28px;}
+	.main-inner div .about-b p{padding-top: 0px;}
+	.main-inner div .about-b span{color:#6a2d2a;}
+	footer{height: 75px;background-color: #fff;}
+	.footer-inner{width: 915px;height: 75px;margin: 0 auto;font-size: 11px;border-top: 1px solid #dfdfdf;}
+	.footer-inner .left{float: left;padding-top: 21px;}
+	.footer-inner .right{float: right;padding-top: 21px;}
+	.footer-inner .right img{float: right;margin-top: -20px;}
+	.footer-inner  span{color: #797979;}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{margin: 0;padding: 0;}
+		a{text-decoration: none;}
+		ul{list-style: none;}
+		ul{width: 400px;height: 100px;background-color: yellow;}
+		ul li{width: 100px;height: 100px;float: left;}
+		div.box{width: 100px;height: 100px;overflow: hidden;}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<ul>	
+			<li><img src="images/1.gif" alt=""></li>
+			<li><img src="images/2.gif" alt=""></li>
+			<li><img src="images/3.gif" alt=""></li>
+			<li><img src="images/4.gif" alt=""></li>
+		</ul>
+	</div>
+	<button class="but1">1</button>
+	<button class="but2">2</button>
+	<button class="but3">3</button>
+	<button class="but4">4</button>
+
+
+
+	<script src="js/jquery-1.11.1.js"></script>
+	<script>
+		$(".but1").click(function(){
+			$("ul").animate({"margin-left":"-100px"},2000)
+		})
+		$(".but2").click(function(){
+			$("ul").animate({"margin-left":"-200px"},2000)
+		})
+		$(".but3").click(function(){
+			$("ul").animate({"margin-left":"-300px"},2000)
+		})
+		$(".but4").click(function(){
+			$("ul").animate({"margin-left":"-400px"},2000)
+		})
+	</script>
+</body>
+</html>

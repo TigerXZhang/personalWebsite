@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{margin: 0;padding: 0;}
+		ul{list-style: none;}
+		a{text-decoration: none;display: block;text-align: center;line-height: 50px;}
+		ul {width: 500px;height: 50px;margin: 0 auto;overflow: hidden;}
+		ul li{width: 100px;float: left;background-color: #0f0;position:relative;line-height: 50px;text-align: center;}
+
+	</style>
+</head>
+<body>
+	<div>
+		<ul>
+			<li class="list">	
+				
+				<span>主页</span>
+				<a href="">主页</a>
+			</li>
+			<li class="list">
+				
+				<span>新闻</span>
+				<a href="">新闻</a>
+			</li>
+			<li class="list"> 
+				
+				<span>视频</span>
+				<a href="">视频</a>
+			</li class="list">
+			<li class="list">
+				
+				<span>游戏</span>
+				<a href="">游戏</a>
+			</li>
+			<li class="list">
+				
+				<span>帮助</span>
+				<a href="">帮助</a>
+			</li>
+		</ul>
+	</div>
+
+
+
+		
+	<script src="js/jquery-1.11.1.js"></script>
+	<script>
+		$("li").mouseenter(function(){
+			$(this).stop().animate({"margin-top":"-50px"},1000);
+		})
+		$("li").mouseleave(function(){
+			$(this).stop().animate({"margin-top":"0px"},1000);
+		})
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+		<footer>	
+			<div class="footer_top">
+					<ul>	
+						<li>DO more with Dell</li>
+						<li>Emploree and student</li>
+						<li>Discount</li>
+						<li>PartnerDirect</li>
+						<li>The power to do more</li>
+						<li>Dell Outlet</li>
+						<li>techCenter</li>
+						<li>Make a payment</li>
+					</ul>
+				</div>
+				<ul>
+						<li>Company</li>
+						<li>Investors</li>
+						<li>About Dell</li>
+						<li>Corporate Responsibility</li>
+						<li>Customer Engagement</li>
+						<li>Careers</li>
+						<li>Dell Newsroom</li>
+				</ul>
+				<div>
+						<li>Legal</li>
+						<li>Ads & Emails</li>
+						<li>privacy</li>
+						<li>Legal & Regulatory</li>
+						<li>Terms of sale </li>
+						<li>Trademarks</li>
+				</div>
+				<div>
+					<li>Community</li>
+					<li>The Dell Community</li>
+					<li>Read our Blog</li>
+					<li>Support forums</li>
+					<li>Events</li>
+				</div>
+				<div>
+					<li>United states</li>
+				</div
+			<div class="footer_botomo"></div>

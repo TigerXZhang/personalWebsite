@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{margin: 0;padding: 0;}
+		a{text-decoration: none;display: block;line-height: 50px;text-align: center;}
+		div{width:2000px;height: 100px;background-color: #eee;}
+		ul{list-style: none;}
+		.list li{width: 140px;height: 50px;float:left;border:1px solid #000;background-color: yellow;}
+		.box ul li{clear: both;}
+		.box1{display: none;}
+		.box2{display: none;}
+		.box3{display: none;}
+		.box4{display: none;}
+		.box5{display: none;}
+
+
+	</style>
+</head>
+<body>
+
+		
+			<div>
+				<ul class="list">
+					<li class="list1"><a href="#">dell蓝色</a></li>
+					<li class="list2"><a href="#">dell紫色</a></li>
+					<li class="list3"><a href="#">ipad</a></li>
+					<li class="list4"><a href="#">Troop</a></li>
+					<li class="list5"><a href="#">web application</a></li>
+					<li class="list5"><a href="#">未完待续</a></li>
+				</ul>
+			</div>	
+				<div class="box">
+					<ul>
+						<li class="box1"><img src="dell/dell.png" alt=""></li>
+						<li class="box2"><img src="dell2/张晓虎/第三天练习.jpg" alt=""></li>
+						<li class="box3"><img src="ipad/home.png" alt=""></li>
+						<li class="box4"><img src="Troop/troop.png" alt=""></li>
+						<li class="box5"><img src="web application/Web Application.jpg" alt=""></li>
+					</ul>
+				</div>
+		
+
+
+	<script src="js/jquery-1.11.1.js"></script>
+	<script>
+		// $(".list1").click(function(){
+		// 	$(".box1").css("display","block").siblings().css("display","none");
+		// })
+		// $(".list2").click(function(){
+		// 	$(".box2").css("display","block").siblings().css("display","none");
+		// })
+		// $(".list3").click(function(){
+		// 	$(".box3").css("display","block").siblings().css("display","none");
+		// })
+		// $(".list4").click(function(){
+		// 	$(".box4").css("display","block").siblings().css("display","none");
+		// })
+		$(".list li").click(function(){
+			var index=$(this).index();
+			$(".box li").eq(index).css("display","block").siblings().css("display","none");
+		})
+
+	</script>
+</body>
+</html>
