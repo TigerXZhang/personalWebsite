@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style/reset.css">
+	<link rel="stylesheet" href="style/lightbox.css">
+	<link rel="stylesheet" href="style/pc.css">
+	<script type="text/javascript" src="js/html5.js"></script>
+	
+</head>
+<body>
+	<header>
+		<div class="top">
+			<div class="top-left">
+				<p class="first">全球购咨询 <span>/</span> <b>infomation</b></p>
+				<p class="second"><a href="">more++</a></p>
+			</div>	
+			<div class="top-right">
+				<p class="first">全球购专辑 <span>/</span> <b>Magazine</b></p>
+				<p class="second"><a href="">more++</a></p>
+			</div>
+		</div>
+
+		<img src="images/borderb_03.jpg" alt="" >
+	</header>
+	<section class="main">
+		<div class="main-left">
+			<a href=""><img src="images/nan_06.jpg" alt=""></a>
+			<ul>
+				<li>
+					<a href="#">夏日选对白裙 你就是女神</a><p>韩国少女时代jessica和(x)成员krystal纽约最潮写真</p>
+					<a href="#">男装周男神同场斗秀可还行？</a><p>韩国少女时代jessica和(x)成员krystal纽约最潮写真</p>
+					<a href="#">男装周男神同场斗秀可还行？</a><p>韩国少女时代jessica和(x)成员krystal纽约最潮写真</p>
+					<a href="#">世界杯各国养眼妹纸球迷</a><p>韩国少女时代jessica和(x)成员krystal纽约最潮写真</p>
+					<a href="#">直接贴脸上更好 别再贴黄瓜片了</a><p>韩国少女时代jessica和(x)成员krystal纽约最潮写真</p>
+					<a href="#">最夯最潮郑氏姐妹花</a><p>韩国少女时代jessica和(x)成员krystal纽约最潮写真</p>
+				</li>	
+			</ul>
+			<img src="images/nv_09.jpg" alt="" class="nv">
+		</div>
+		<div class="main-right">
+			<div class="box">
+				<a href=""><ul class="picList">
+					<li><img src="images/1_07.jpg" alt=""></li>
+					<li><img src="images/11.jpg" alt=""></li>
+					<li><img src="images/22.jpg" alt=""></li>
+				</ul></a>
+			</div>	
+			<a href="images/da-2.jpg" data-lightbox="example-3"><img src="images/2_09.jpg" alt="" class="pic2"></a>
+			<a href="images/da3.jpg" data-lightbox="example-3"><img src="images/3_11.jpg" alt="" class="pic3"></a>
+			<a href="images/da-4.jpg" data-lightbox="example-3"><img src="images/4_16.jpg" alt="" class="pic4"></a>
+			<a href="images/da-5.jpg" data-lightbox="example-3"><img src="images/5_17.jpg" alt="" class="pic5"></a>
+		</div>
+	</section>
+
+	<script src="js/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/lightbox.js"></script>
+	<script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+	<script>
+		var $picList =  $(".picList");
+		$picList.cycle({
+				"fx":"blindX",
+				speed:500,
+				timeout:2000,
+				pause:true,
+				"before":function(){
+					var index = $(this).index();
+				}                                      //轮播效果
+			});
+
+
+		var action = 'click';
+		var speed = "500";
+		$(document).ready(function(){
+			$('li a').on(action, function(){
+				$(this).next().slideToggle(speed)
+				    .siblings('p').slideUp();       //手风琴效果
+			});
+		});
+	</script>
+</body>
+</html>

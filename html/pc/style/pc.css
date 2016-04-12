@@ -1,0 +1,28 @@
+		*{margin: 0;padding: 0;font-family: 微软雅黑;}
+		ul{list-style: none;}
+		a{text-decoration: none;}
+		header .top{width: 1200px;height: 47px;margin: 0 auto;}
+		header .top .top-left .first{font-size: 20px;color: #8f6966;padding-top: 17px;padding-left: 5px;float: left;letter-spacing: 3px;}
+		header .top  .first span{color: #eaeaea;}
+		header .top .top-left .second{font-size: 12px;color: #c6aaa9;padding-left: 160px;padding-top: 31px;float: left;}
+		header .top .top-right .first{font-size: 20px;color: #8f6966;padding-top: 17px;padding-left: 35px;float: left;letter-spacing: 3px;}
+		header .top .top-right .second{font-size: 12px;color: #c6aaa9;padding-left: 322px;padding-top: 31px;float: left;}
+		header img{width: 1200px;margin: 0 auto;display: block;padding-top: 5px;}
+		section.main{width: 1200px;margin: 0 auto;}
+		section.main .main-left{width: 527px;float: left;}
+		section.main .main-left img{padding-top: 10px;float: left;}
+		section.main .main-left ul a{display: block;width: 205px;border-bottom: 1px solid #d9d9d9;line-height: 47px;padding-left: 5px;}
+		section.main .main-left ul li a:hover{color: #000;}
+		section.main .main-left ul li p {display: none;color:#484647;font-size: 14px;width: 205px;height: 50px;padding-left: 0px;padding-top: 0px;line-height: 20px;}
+
+		section.main .main-left ul li a{color: #494748;font-size: 12px;}
+		section.main .main-left ul{float: left;padding-top: 11px;margin-left: 5px;}
+		
+		section.main .main-left .nv{padding-left: 10px;padding-top: 17px;}
+		section.main .main-right{width: 672px;height: 498px;float: left;border-left:1px solid #eaeaea;}
+		section.main .main-right .box{width: 281px;height: 487px;overflow: hidden;float: left;}
+		section.main .main-right .picList{margin-left: 9px;margin-top: 9px;float: left;}
+		section.main .main-right .pic2{float: left;margin-left: 5px;margin-top: 9px;margin-right: 2px;}
+		section.main .main-right .pic3{margin-top: 9px;float: left;}
+		section.main .main-right .pic4{margin-left: 5px;margin-right: 2px;margin-top: 4px;float: left;}
+		section.main .main-right .pic5{float: left;margin-top: 4px;}
